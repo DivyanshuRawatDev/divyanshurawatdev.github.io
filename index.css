@@ -77,4 +77,7 @@ body {
   .container {
     text-align: center;
   }
+  .profile {
+    margin-top: 10%;
+  }
 }
