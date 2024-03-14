@@ -38,3 +38,24 @@ body {
   align-items: center;
   margin-top: 25px;
 }
+
+.platform {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.platform > a {
+  text-decoration: none;
+  color: rgb(218, 216, 216);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    text-align: center;
+    margin-top: 25%;
+  }
+}
