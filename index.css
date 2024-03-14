@@ -1,0 +1,40 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: black;
+  color: white;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.profile-name {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.profile-job {
+  margin-top: 0px;
+}
+
+.profile-description {
+  color: rgb(163, 160, 160);
+  margin-top: 35px;
+}
+
+.profile-image {
+  border-radius: 100%;
+  width: 200px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  margin-top: 25px;
+}
